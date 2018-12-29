@@ -12,14 +12,14 @@ var totalquestions=10
 var correctchoices=new Array()
 correctchoices[1]='a'; //question 1 solution
 correctchoices[2]='b' //question 2 solution, and so on.
-correctchoices[3]='b'
+correctchoices[3]='b';
 correctchoices[4]='a'
 correctchoices[5]='c'
 correctchoices[6]='d'
 correctchoices[7]='b'
 correctchoices[8]='c'
 correctchoices[9]='a';
-correctchoices[10]='c'
+correctchoices[10]='c';
 
 /////Don't edit beyond here//////////////////////////
 
@@ -42,7 +42,7 @@ for (q=1;q<=totalquestions;q++){
 
 if (incorrect==null)
 incorrect="a/b"
-document.cookie='q='+incorrect
+document.cookie='q='+incorrect;
 if (document.cookie=='')
 alert("Your browser does not accept cookies. Please adjust your browser settings.")
 else
