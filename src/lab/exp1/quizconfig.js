@@ -36,7 +36,7 @@ for (q=1;q<=totalquestions;q++){
 		if (incorrect==null)
 		incorrect=q
 		else
-		incorrect+="/"+q
+		incorrect+="/"+q;
 		}
 	}
 
