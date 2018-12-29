@@ -17,7 +17,7 @@ correctchoices[4]='a';
 correctchoices[5]='c'
 correctchoices[6]='d'
 correctchoices[7]='b'
-correctchoices[8]='c'
+correctchoices[8]='c';
 correctchoices[9]='a'
 correctchoices[10]='c'
 
@@ -29,7 +29,7 @@ for (q=1;q<=totalquestions;q++){
 	var thequestion=eval("document.myquiz.question"+q)
 	for (c=0;c<thequestion.length;c++){
 		if (thequestion[c].checked==true)
-		actualchoices[q]=thequestion[c].value
+		actualchoices[q]=thequestion[c].value;
 		}
 		
 	if (actualchoices[q]!=correctchoices[q]){ //process an incorrect choice
