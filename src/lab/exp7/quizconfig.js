@@ -18,7 +18,7 @@ correctchoices[5]='c'
 correctchoices[6]='d'
 correctchoices[7]='b'
 correctchoices[8]='c'
-correctchoices[9]='a'
+correctchoices[9]='a';
 correctchoices[10]='c'
 
 /////Don't edit beyond here//////////////////////////
@@ -29,12 +29,12 @@ for (q=1;q<=totalquestions;q++){
 	var thequestion=eval("document.myquiz.question"+q)
 	for (c=0;c<thequestion.length;c++){
 		if (thequestion[c].checked==true)
-		actualchoices[q]=thequestion[c].value
+		actualchoices[q]=thequestion[c].value;
 		}
 		
 	if (actualchoices[q]!=correctchoices[q]){ //process an incorrect choice
 		if (incorrect==null)
-		incorrect=q
+		incorrect=q;
 		else
 		incorrect+="/"+q
 		}
@@ -52,7 +52,7 @@ window.location="results.htm"
 
 function showsolution(){
 var win2=window.open("","win2","width=200,height=350, scrollbars")
-win2.focus()
+win2.focus();
 win2.document.open()
 win2.document.write('<title>Solution</title>')
 win2.document.write('<body bgcolor="#FFFFFF">')
