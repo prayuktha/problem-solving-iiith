@@ -46,12 +46,12 @@ document.cookie='q='+incorrect
 if (document.cookie=='')
 alert("Your browser does not accept cookies. Please adjust your browser settings.")
 else
-window.location="results.htm"
+window.location="results.htm";
 }
 
 
 function showsolution(){
-var win2=window.open("","win2","width=200,height=350, scrollbars")
+var win2=window.open("","win2","width=200,height=350, scrollbars");
 win2.focus()
 win2.document.open()
 win2.document.write('<title>Solution</title>')
