@@ -6,7 +6,7 @@
 ***********************************************/
 
 //Enter total number of questions:
-var totalquestions=10
+var totalquestions=10;
 
 //Enter the solutions corresponding to each question:
 var correctchoices=new Array()
@@ -51,7 +51,7 @@ window.location="results.htm"
 
 
 function showsolution(){
-var win2=window.open("","win2","width=200,height=350, scrollbars")
+var win2=window.open("","win2","width=200,height=350, scrollbars");
 win2.focus()
 win2.document.open();
 win2.document.write('<title>Solution</title>')
