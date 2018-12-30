@@ -110,18 +110,18 @@ var char_range_list={
 "Katakana":"30A0,30FF",
 "Bopomofo":"3100,312F",
 "Hangul Compatibility Jamo":"3130,318F",
-"Kanbun":"3190,319F",
+"Kanbun":"3190,319F";
 "Bopomofo Extended":"31A0,31BF",
 "CJK Strokes":"31C0,31EF",
 "Katakana Phonetic Extensions":"31F0,31FF",
-
+;
 "Enclosed CJK Letters and Months":"3200,32FF",
 "CJK Compatibility":"3300,33FF",
 "CJK Unified Ideographs Extension A":"3400,4DBF",
 "Yijing Hexagram Symbols":"4DC0,4DFF",
 "CJK Unified Ideographs":"4E00,9FFF",
 "Yi Syllables":"A000,A48F",
-"Yi Radicals":"A490,A4CF",
+"Yi Radicals":"A490,A4CF",;
 "Modifier Tone Letters":"A700,A71F",
 "Syloti Nagri":"A800,A82F",
 
